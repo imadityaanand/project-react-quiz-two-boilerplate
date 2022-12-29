@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: green;
+}
+
+.main-container {
+    position: static;
+    margin-top: 50px;
+
+    height: fit-content;
+    width: 50vw;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 50px;
+}
+
+.container-heading {
+    color: blue;
+    margin-top: 30px
+}
+
+.main-container div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container p {
+    font-weight: 600;
+}
+
+.navigate-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 500px;
+}
+
+.play-again, .back-to-home {
+    border-radius: 0;
+    width: 120px;
+    border: default;
+    background-color: white;
+}
+
+.play-again {
+    color: royalblue;
+    border-color: royalblue;
+}
+
+.back-to-home {
+    color: green;
+    border-color: green;
+}

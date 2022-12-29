@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-color: #483A8D;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #09B206;
+    height: 40px;
+    width: 200px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
